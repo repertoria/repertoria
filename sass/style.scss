@@ -1,0 +1,38 @@
+$bg: #F6F4EF;
+$ink: #1C1B22;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: $bg;
+  color: $ink;
+  font-family: system-ui, sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  margin: 0;
+
+  img {
+    display: block;
+    width: min(469px, 80vw);
+    height: auto;
+  }
+}

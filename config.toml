@@ -1,0 +1,9 @@
+base_url = "https://repertoria.github.io/repertoria-org"
+title = "Repertoria"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+
+[markdown]
+
+[extra]
