@@ -1,4 +1,4 @@
-base_url = "https://repertoria.github.io/repertoria-org"
+base_url = "https://repertoria.github.io/repertoria"
 title = "Repertoria"
 compile_sass = true
 build_search_index = false
